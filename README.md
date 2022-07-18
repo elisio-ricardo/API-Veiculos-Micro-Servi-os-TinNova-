@@ -12,6 +12,20 @@ Foi Desenvolvida em Micro-serviços  a arquitetura mais utilizada atualmente.
 2° startar o serviços apigateway
 3° startar o serviços teste-api-veiculos
 
+# Banco de Dados
+
+Foi utilizado o banco de dados em Memoria h2
+
+http://localhost:8080/h2-console
+ 
+ username: sa
+ 
+ password: password
+
+# Documentação Swagger
+
+http://localhost:8080/swagger-ui/index.html
+
 # Rotas para teste no postman ou similar
 
 ## Rota para o Eureka
