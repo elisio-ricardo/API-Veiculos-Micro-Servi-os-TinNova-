@@ -1,0 +1,4 @@
+com\tinnova\teste\controller\VeiculoControllerTeste.class
+com\tinnova\teste\service\FiltrosTeste.class
+com\tinnova\teste\service\VeiculoServiceTeste.class
+com\tinnova\teste\testeApiVeiculosApplicationTests.class

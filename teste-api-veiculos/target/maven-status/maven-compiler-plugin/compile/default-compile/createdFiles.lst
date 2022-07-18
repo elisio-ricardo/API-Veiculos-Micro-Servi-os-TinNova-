@@ -1,0 +1,9 @@
+com\tinnova\teste\repository\VeiculoRepository.class
+com\tinnova\teste\model\Veiculo$VeiculoBuilder.class
+com\tinnova\teste\service\filtros\Filtrar.class
+com\tinnova\teste\model\Veiculo.class
+com\tinnova\teste\service\VeiculoService.class
+com\tinnova\teste\controller\VeiculoController.class
+com\tinnova\teste\service\ConferirValoresNullVeiculoServicePatch.class
+com\tinnova\teste\config\SwaggerConfig.class
+com\tinnova\teste\testeApiVeiculosApplication.class

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Api-Veiculo-Teste-TinNova.iml" filepath="$PROJECT_DIR$/.idea/Api-Veiculo-Teste-TinNova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/apigateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/namingservice/namingservice.iml" filepath="$PROJECT_DIR$/namingservice/namingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste-api-veiculos/teste-api-veiculos.iml" filepath="$PROJECT_DIR$/teste-api-veiculos/teste-api-veiculos.iml" />
+    </modules>
+  </component>
+</project>
