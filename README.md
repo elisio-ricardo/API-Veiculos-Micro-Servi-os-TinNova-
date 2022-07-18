@@ -4,7 +4,7 @@ API de veiculos criada em Java com arquitetura de Micro Serviços
 Onde Sua principal função é gerar um CRUD de veiculos e fazer filtros dos veiculos, como quantidade por marca, quantidade por decada,
 filtro por marca, ano e cor.
 
-Foi Desenvolvida em Micro-serviços  a arquitetura mais utilizada atualmente
+Foi Desenvolvida em Micro-serviços  a arquitetura mais utilizada atualmente.
 
 # Ordem de inicialização de Serviços
 
@@ -30,25 +30,20 @@ Esses parametros são opcionais, porem o filtro só é feito quando enviar todos
 localhost:8765/veiculo?marca={marca}&ano={ano}&cor={cor}
 
 ## Rota para getFindById / delete / put / patch 
-
 localhost:8765/veiculo/{id}
 
 ## Rota para executar o filtro de quantidade não vendida
-
 localhost:8765/veiculo/naovendido
 
 
 ## Rota para executar o filtro de quantidade de veiculos por cada fabricante
-
 localhost:8765/veiculo/marca
 
 
 ## Rota para executar o filtro de quantidade de veiculos por cada decada
-
 localhost:8765/veiculo/decada
 
 ## Rota para executar o filtro de quantidade de veiculos adicionada no ultima semana
-
 localhost:8765/veiculo/ultimasemana
 
 
