@@ -26,14 +26,13 @@ import java.util.*;
 import static io.restassured.module.mockmvc.RestAssuredMockMvc.given;
 import static io.restassured.module.mockmvc.RestAssuredMockMvc.standaloneSetup;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
 @WebMvcTest
 @DisplayName("VeiculoControllerTest")
 public class VeiculoControllerTeste {
-
 
     @MockBean
     private VeiculoService veiculoService;
@@ -255,7 +254,7 @@ public class VeiculoControllerTeste {
 
         Long id = 1l;
 
-        mockMvc.perform(MockMvcRequestBuilders.patch("/veiculo/" + id, veiculo, 1l)
+        mockMvc.perform(patch("/veiculo/" + id, veiculo, 1l)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(veiculo)))
                 .andExpect(status().isOk());
@@ -267,12 +266,11 @@ public class VeiculoControllerTeste {
     @Test
     @DisplayName("Deve deletar um veiculo")
     public void deveDeletarUmVeiculo() throws Exception {
-
         Mockito.when(veiculoService.findById(1l)).thenReturn(veiculo);
 
         Long id = 1l;
 
-        mockMvc.perform(MockMvcRequestBuilders.delete("/veiculo/" + id, 1l)
+        mockMvc.perform(delete("/veiculo/" + id, 1l)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(veiculo)))
                 .andExpect(status().isOk());
